@@ -11,13 +11,13 @@
 21:06|Violet
 26:36|Riot
 </pre>
-タイムリストが載ってるはずだから、それを上記のようなフォーマットに整形したテキストファイルを$datDIR以下にdata.txtとして置く
+タイムリストが載ってるはずだから、それを上記のようなフォーマットに整形したテキストファイルを$datDIR以下にdata.txtとして置く<br>
 " - "=>"|"
 
-このプログラムにアクセスする
-待ってれば outputフォルダ内に出力されている
+このプログラムにアクセスする<br>
+待ってれば outputフォルダ内に出力されている<br>
 
-320bps ３時間、３７ファイルでも待っていれば２分半で出来たので大抵のファイルは大丈夫だと思う。
+320bps ３時間、３７ファイルでも待っていれば２分半で出来たので大抵のファイルは大丈夫だと思う。<br>
 あとは、MP3タグ入れるソフトで埋め込んで完成
 
 ***
@@ -39,13 +39,10 @@ https://github.com/falahati/PHP-MP3
 \falahati\PHPMP3\MpegAudio::fromFile("old.mp3")->trim(10, 30)->saveFile("new.mp3");
 
 ### Append memory stored MP3 data to the end of a MP3 file:
-メモリに蓄積したMP3のデータをMP3の末尾に追加
+メモリに蓄積したMP3のデータをMP3の末尾に追加<br>
 \falahati\PHPMP3\MpegAudio::fromFile("old.mp3")->append(\falahati\PHPMP3\MpegAudio::fromData(base64_decode("/BASE64-DAT/")))->saveFile("new.mp3");
 
 ### Extracting MP3 file total duration:
-再生時間の取得
+再生時間の取得<br>
 echo \falahati\PHPMP3\MpegAudio::fromFile("old.mp3")->getTotalDuration();
  
-* 
- * 
- */
