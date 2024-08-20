@@ -73,7 +73,6 @@ $time_end = microtime(true);
 $time = $time_end - $time_start;
 var_dump($time); //実行時間を出力する
 echo "sec";
-echo "sec";
 
 //************************************************************** MY FUNCTION*/
 /**
