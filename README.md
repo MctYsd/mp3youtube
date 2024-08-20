@@ -1,18 +1,25 @@
 # mp3youtube
-# Youtubeにアップされているアルバムを分割してmp3で保存する 
- https://www.y2mate.com/jp/youtube-mp3/vL28_YGAFFY<br>
+# Youtubeにアップされているミックステープなどを分割してmp3で保存する 
+
+## 手順
+https://www.y2mate.com/jp/youtube-mp3/vL28_YGAFFY<br>
 　↑こういうのでMP３化<br>
- ファイル名を master.mp3にして　$datDIR(output)以下に置く<br><br>
- <pre>
-0:00|B*tch Don't Kill My Vibe
-3:56|Thinking About You
-9:09|Passionfruit
-14:40|New Light
-21:06|Violet
-26:36|Riot
+ファイル名を master.mp3にして　$datDIR(output)以下に置く<br><br>
+<pre>
+憂鬱 - Sun 0:00 
+憂鬱 - Slow 5:25 
+Zane Alexander - Radio Silence 8:45
+Voyage - Aura 12:22
+Unfound - Dreamlight 17:26
 </pre>
-タイムリストが載ってるはずだから、それを上記のようなフォーマットに整形したテキストファイルを$datDIR以下にdata.txtとして置く<br>
-" - "=>"|"
+タイムリストが載ってるはずだから、それを下記のようなフォーマットに整形したテキストファイルを$datDIR以下にdata.txtとして置く<br>
+<pre>
+0:00|Sun - 憂鬱
+5:25|Slow - 憂鬱
+8:45|Radio Silence - Zane Alexander
+12:22|Aura - Voyage
+17:26|Dreamlight - Unfound
+</pre>
 
 このプログラムにアクセスする<br>
 待ってれば outputフォルダ内に出力されている<br>
