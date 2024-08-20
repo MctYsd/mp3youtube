@@ -1,6 +1,8 @@
 # mp3youtube
 # Youtubeにアップされているミックステープなどを分割してmp3で保存する 
-
+作業用に重宝するミックス。  
+お気に入りの一曲を見つけても、繋がっていると探すの面倒。  
+なので、分割して聞き流す。
 ## 手順
 https://www.y2mate.com/jp/youtube-mp3/vL28_YGAFFY<br>
 　↑こういうのでMP３化<br>
