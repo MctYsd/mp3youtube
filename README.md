@@ -40,11 +40,11 @@ https://github.com/falahati/PHP-MP3
 
 ## <usage>
 ### Strip ID3 tags from a MP3 file:MP3 
- ファイルから ID3 タグを取り除く
+ ファイルから ID3 タグを取り除く  
 \falahati\PHPMP3\MpegAudio::fromFile("old.mp3")->stripTags()->saveFile("new.mp3");
 
 ### Cut a MP3 file to extract a 30sec preview starting at the 10th second:
-最初の１０秒から３０秒間を切り出す
+最初の１０秒から３０秒間を切り出す  
 \falahati\PHPMP3\MpegAudio::fromFile("old.mp3")->trim(10, 30)->saveFile("new.mp3");
 
 ### Append memory stored MP3 data to the end of a MP3 file:
