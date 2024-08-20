@@ -27,11 +27,11 @@ Unfound - Dreamlight 17:26
 待ってれば outputフォルダ内に出力されている<br>
 
 320bps ３時間、３７曲でも待っていれば２分半で出来たので大抵のファイルは大丈夫だと思う。<br>
-あとは、MP3タグ入れるソフトで埋め込んで完成
+あとは、MP3タグ入れるソフトでデータを埋め込んで完成
 
 ***
 
- *https://github.com/thegallagher/PHP-MP3  
+https://github.com/thegallagher/PHP-MP3  
 こっちのプログラムはでかいファイルでは機能しなかったが
 
 こっちは↓動作した。  
