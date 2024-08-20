@@ -31,12 +31,12 @@ Unfound - Dreamlight 17:26
 
 ***
 
- *https://github.com/thegallagher/PHP-MP3
+ *https://github.com/thegallagher/PHP-MP3  
 こっちのプログラムはでかいファイルでは機能しなかったが
 
-こっちは↓動作した。
-https://github.com/falahati/PHP-MP3
-ただしphp.iniをいじって実行メモリは５１２MB、タイムアウトの時間は１８０以上くらいにしないと無理
+こっちは↓動作した。  
+https://github.com/falahati/PHP-MP3  
+ただしphp.iniをいじって実行メモリは５１２MB、タイムアウトの時間は１８０以上くらいにしないと無理  
 
 ## <usage>
 ### Strip ID3 tags from a MP3 file:MP3 
